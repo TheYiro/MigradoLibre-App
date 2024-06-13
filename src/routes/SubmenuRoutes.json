@@ -1,0 +1,51 @@
+{
+  "Computacion": [
+    {
+      "id": 1,
+      "category_id": "MLA82085",
+      "domain_id": "MLA-TABLETS"
+    },
+    {
+      "id": 2,
+      "category_id": "MLA14407",
+      "domain_id": "MLA-COMPUTER_MONITORS"
+    },
+    {
+      "id": 3,
+      "category_id": "MLA1652",
+      "domain_id": "MLA-NOTEBOOKS"
+    },
+    {
+      "id": 4,
+      "category_id": "MLA1720",
+      "domain_id": "MLA-STABILIZERS_AND_UPS"
+    },
+    {
+      "id": 5,
+      "category_id": "MLA72721",
+      "domain_id": "MLA-SCANNERS"
+    },
+    {
+      "id": 6,
+      "category_id": "MLA1676",
+      "domain_id": "MLA-PRINTERS"
+    }
+  ],
+  "Electronica_Audio_y_video": [
+    {
+      "id": 1,
+      "category_id": "MLA8618",
+      "domain_id": "MLA-SPEAKERS"
+    },
+    {
+      "id": 2,
+      "category_id": "MLA430901",
+      "domain_id": "MLA-ROUTERS_AND_WIRELESS_SYSTEMS"
+    },
+    {
+      "id": 3,
+      "category_id": "MLA1002",
+      "domain_id": "MLA-TELEVISIONS"
+    }
+  ]
+}

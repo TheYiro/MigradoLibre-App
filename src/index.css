@@ -1,0 +1,172 @@
+.category-page a{
+  color: black;
+}
+.category-menu a{
+  color: white;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/fondodemonservices.jpg');
+}
+a{
+  text-decoration: none;
+}
+.app,
+#root{
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+}
+.app{
+  display: flex;
+  flex-direction: file;
+  align-items: flex-start;
+  gap: 0px;
+}
+.leftseccion{
+  width: 20vw;
+  height: 100%;
+}
+.rightseccion{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.navBar{
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes neon {
+  0% {
+    box-shadow: 0px 0px 100px 5px #FFFFFF;
+  }
+  30% {
+    box-shadow: 0px 0px 50px 5px #ff0000;
+  }
+  100% {
+    box-shadow: 0px 0px 100px 5px #FFFFFF;
+  }
+}
+
+.navBar img{
+  height: 50%;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 100px 5px #FFFFFF;
+  animation: neon 5s linear infinite;
+}
+
+.category-menu {
+  height: 100%;
+  flex: 1;
+  padding: 20px;
+  background: #3e3e3ea1;
+  color: white;
+  font-size: 26px;
+}
+
+.category-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-menu li {
+  margin-bottom: 10px;
+}
+
+.category-menu button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+.category-submenu {
+  width: 300px;
+  padding: 20px;
+  font-size: 17px;
+}
+
+.category-submenu ul {
+  list-style: '- ';
+  padding-left: 15px;
+}
+
+.category-submenu li {
+  margin-bottom: 15px;
+  
+}
+.category-page{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 24px;
+}
+.title-category-page{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.product-item {
+  width: 280px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  animation: neon 5s linear infinite;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item h3 {
+  font-size: 18px;
+}
+
+.product-item h4 {
+  color: black;
+  transition: 3s;
+}
+.product-item h4:hover{
+  color: #ff0000;
+  transition: 1s;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+.home a{
+  color: black;
+}
+.home h1{
+  color: white;
+}
